@@ -14,6 +14,7 @@ const props = defineProps(
 .cs-button {
   background: var(--button-primary);
   color: var(--button-default-text);
+  font-family: inherit;
   border-radius: 100px;
   border: none;
   cursor: pointer;
