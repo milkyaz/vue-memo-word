@@ -1,9 +1,11 @@
 <script setup>
-
+const { disabled = false } = defineProps();
 </script>
 
 <template>
-  <button class="cs-button"><span class="cs-button__text"><slot/></span></button>
+  <button class="cs-button" :disabled="disabled"><span class="cs-button__text">
+      <slot />
+    </span></button>
 </template>
 
 <style scoped>
