@@ -1,8 +1,10 @@
 :root {
---button-primary: #008BFE;
---button-default-text: #FFFFFF;
+  --button-primary: #008bfe;
+  --button-default-text: #ffffff;
+  --button-disabled-bg: #e0e0e0; 
+  --button-disabled-text: #a0a0a0;
 }
 
 .body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }

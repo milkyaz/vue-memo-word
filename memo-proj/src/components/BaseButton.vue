@@ -24,4 +24,10 @@ const props = defineProps({ disabled: { type: Boolean, default: false } })
   line-height: 36px;
   font-weight: 400;
 }
+
+.cs-button:disabled {
+  cursor: not-allowed;
+  background: var(--button-disabled-bg);
+  color: var(--button-disabled-text);
+}
 </style>
