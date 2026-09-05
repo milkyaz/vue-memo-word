@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import BaseButton from "./components/BaseButton.vue";
 </script>
 
 <template>
-  <HelloWorld />
+  <BaseButton>Начать игру</BaseButton>
 </template>
