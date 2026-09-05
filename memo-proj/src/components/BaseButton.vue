@@ -8,11 +8,13 @@
 
 <style scoped>
 .cs-button {
+  width: 335px;
   background: var(--button-primary);
   color: var(--button-default-text);
   border-radius: 100px;
   padding: 16px 10px 16px 10px;
   border: none;
+  cursor: pointer;
 }
 
 .cs-button__text {
