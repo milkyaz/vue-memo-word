@@ -1,10 +1,10 @@
 :root {
   --button-primary: #008bfe;
   --button-default-text: #ffffff;
-  --button-disabled-bg: #e0e0e0; 
+  --button-disabled-bg: #e0e0e0;
   --button-disabled-text: #a0a0a0;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
 }

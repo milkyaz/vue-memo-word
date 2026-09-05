@@ -4,7 +4,7 @@ import BaseButton from "./components/BaseButton.vue";
 
 <template>
   <main class="main">
-    <BaseButton>Начать игру</BaseButton>
+    <BaseButton style="padding: 16px 102px 16px 102px;">Начать игру</BaseButton>
   </main>
 </template>
 <style scoped>

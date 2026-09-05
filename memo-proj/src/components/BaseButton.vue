@@ -1,5 +1,7 @@
 <script setup>
-const props = defineProps({ disabled: { type: Boolean, default: false } })
+const props = defineProps(
+  { disabled: { type: Boolean, default: false } },
+)
 </script>
 
 <template>
@@ -10,11 +12,9 @@ const props = defineProps({ disabled: { type: Boolean, default: false } })
 
 <style scoped>
 .cs-button {
-  width: 335px;
   background: var(--button-primary);
   color: var(--button-default-text);
   border-radius: 100px;
-  padding: 16px 10px 16px 10px;
   border: none;
   cursor: pointer;
 }
