@@ -1,5 +1,5 @@
 <script setup>
-const { disabled = false } = defineProps();
+const props = defineProps({ disabled: { type: Boolean, default: false } })
 </script>
 
 <template>
